@@ -1,0 +1,4 @@
+# Subscription products: favor commercial value and trend.
+weights: {demand: 0.20, commercial: 0.35, trend: 0.20, difficulty: 0.15, fit: 0.10}
+include: []
+exclude: []

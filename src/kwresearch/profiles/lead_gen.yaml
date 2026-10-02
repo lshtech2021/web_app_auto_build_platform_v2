@@ -1,0 +1,4 @@
+# Lead generation: favor CPC / buyer intent.
+weights: {demand: 0.15, commercial: 0.45, trend: 0.10, difficulty: 0.15, fit: 0.15}
+include: []
+exclude: []

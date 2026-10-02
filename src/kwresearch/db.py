@@ -17,9 +17,7 @@ def make_engine(url: str) -> Engine:
     return engine
 
 
-def upsert_keywords(
-    session: Session, items: Iterable[KeywordMetrics], geo: str, lang: str
-) -> int:
+def upsert_keywords(session: Session, items: Iterable[KeywordMetrics], geo: str, lang: str) -> int:
     """Insert or update keyword metrics; returns number of keywords written."""
     n = 0
     for m in items:
