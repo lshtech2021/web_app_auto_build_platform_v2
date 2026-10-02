@@ -1,0 +1,4 @@
+# Traffic-driven monetization: favor demand and low difficulty.
+weights: {demand: 0.40, commercial: 0.20, trend: 0.15, difficulty: 0.20, fit: 0.05}
+include: []
+exclude: []
